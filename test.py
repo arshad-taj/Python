@@ -1,3 +1,6 @@
-a,*b=[1,1,'dada','dddd',True,'Qwerty']
+a= [1,2,3,4]
+print(list(map(lambda f:f*f,a)))
+def square(x):
+    return  x*x
 
-print(a,*b)
+print(list(map(square,a)))
